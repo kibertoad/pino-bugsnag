@@ -1,0 +1,34 @@
+{
+  "name": "pino-bugsnag",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "@bugsnag/js": "^7.22.2",
+    "pino-abstract-transport": "^1.1.0",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "pino": "^8.16.2",
+    "tsd": "^0.29.0",
+    "typescript": "^5.3.3"
+  },
+  "homepage": "https://github.com/kibertoad/pino-bugsnag",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kibertoad/pino-bugsnag.git"
+  },
+  "keywords": [
+    "pino",
+    "bugsnag",
+    "stream"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.d.ts",
+    "index.js"
+  ]
+}
